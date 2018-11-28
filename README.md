@@ -1,5 +1,6 @@
 # microbit_node-red_functions
-source ->  https://github.com/sandeepmistry/node-bbc-microbit
+source ->   https://github.com/sandeepmistry/node-bbc-microbit
+            https://github.com/lancaster-university/microbit
 
 1)  Drop microbit-BLE.hex on microbit
 
