@@ -47,10 +47,12 @@ The other way to program your microbit is to use Mbed.
 microbit-samples.zip originately comes from https://os.mbed.com/teams/BBC/code/microbit-samples/ , more samples have been added to this. Now its time to choose your sample and to upload it on the microbit!
 
 >To do:
->- Decomment the '#define  MICROBIT_SAMPLE_NAME_OF_YOUR_SAMPLE' line in 'source/MicroBitSamples.h'.
+>- Decomment the '#define  MICROBIT_SAMPLE_NAME_OF_YOUR_SAMPLE' line in 'source/MicroBitSamples.h'.(see figure below)
 >- Select the BBC micro:bit board (on Mbed compiler)
 >- Compile
 >- Upload the generated hex file on the microbit flash drive
+
+![Mbed_select](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/Mbed_select.png)
 
 Other samples are available at https://github.com/lancaster-university/microbit-samples
 
