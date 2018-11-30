@@ -1,4 +1,4 @@
-# Node-RED functions for microbit
+# Node-RED functions for microbit IN PROGRESS!
 
 One Paragraph of project description goes here
 
@@ -41,13 +41,18 @@ You can also create a new program, if so, make sure that the pairing settings in
 The other way to program your microbit is to use Mbed.
 
 >To do:   
->- Go to the mbed online compiler   
+>- Open Mbed online compiler   
 >- 'Import' tab -> 'Upload' tab -> Choose file (**microbit-samples.zip**)
 
-microbit-samples.zip originately comes from https://os.mbed.com/teams/BBC/code/microbit-samples/ , more samples have been added to this.
+microbit-samples.zip originately comes from https://os.mbed.com/teams/BBC/code/microbit-samples/ , more samples have been added to this. Now its time to choose your sample and to upload it on the microbit!
 
->To do to make a sample run on your microbit:
->- decomment the #define  MICROBIT_SAMPLE_NAME_OF_YOUR_SAMPLE line in source/MicroBitSamples.h. Other samples are available at https://github.com/lancaster-university/microbit-samples
+>To do:
+>- Decomment the '#define  MICROBIT_SAMPLE_NAME_OF_YOUR_SAMPLE' line in 'source/MicroBitSamples.h'.
+>- Select the BBC micro:bit board
+>- Compile
+>- Upload the generated hex file on the microbit flash drive
+
+Other samples are available at https://github.com/lancaster-university/microbit-samples
 
 ### 1.2.3.Raspberry PI
 
