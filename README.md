@@ -27,7 +27,7 @@ There are two ways to program your microbit: with the microbit online compiler o
 For basic usage of the microbit, the microbit-BLE project is appropriated. It only activates all bluetooth services. The services needed are then chosen through the Node-RED functions (see section 1.2.3).
 
 >To do:   
->- Upload the microbit-BLE.hex on the microbit flash drive
+>- Upload 'microbit-BLE.hex' on the microbit flash drive
 
 The microbit-BLE project is set up such as no pairing is required: anyone can connect via Bluetooth.
 
