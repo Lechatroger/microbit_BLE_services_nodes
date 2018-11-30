@@ -48,7 +48,7 @@ microbit-samples.zip originately comes from https://os.mbed.com/teams/BBC/code/m
 
 >To do:
 >- Decomment the '#define  MICROBIT_SAMPLE_NAME_OF_YOUR_SAMPLE' line in 'source/MicroBitSamples.h'.
->- Select the BBC micro:bit board
+>- Select the BBC micro:bit board (on Mbed compiler)
 >- Compile
 >- Upload the generated hex file on the microbit flash drive
 
