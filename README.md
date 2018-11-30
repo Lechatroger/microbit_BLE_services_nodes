@@ -1,8 +1,6 @@
 Rasp Node-red
 
 
-    efesf
-	sfe
 
 
 # microbit_node-red_functions
