@@ -23,9 +23,9 @@ A step by step series of examples that tell you how to get a development env run
 
 ### 1.2.1.Microbit with Microbit online Javascript compiler
 
-For basic usage of the microbit, the 'microbit-BLE.hex' is appropriated. It only activates all bluetooth services. The services needed are then chosen on Node-RED (see section 1.2.3).
+For basic usage of the microbit, the 'microbit-BLE.hex' is appropriated. It only activates all bluetooth services. The services needed are then chosen through the Node-RED functions (see section 1.2.3).
 
-1)  Drop microbit-BLE.hex on microbit
+'To do:  Upload the microbit-BLE.hex on the microbit'
 
 ### 1.2.2.Microbit with Mbed online compiler
 
