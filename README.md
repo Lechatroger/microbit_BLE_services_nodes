@@ -25,7 +25,7 @@ A step by step series of examples that tell you how to get a development env run
 
 For basic usage of the microbit, the microbit-BLE project is appropriated. It only activates all bluetooth services. The services needed are then chosen through the Node-RED functions (see section 1.2.3).
 
->To do:
+>To do:   
 >Upload the microbit-BLE.hex on the microbit flash drive
 
 The microbit-BLE project is set up such as no pairing is required: anyone can connect via Bluetooth.
@@ -39,8 +39,8 @@ You can also create a new program, if so, make sure that the pairing settings in
 
 The other way to program your microbit is to use Mbed.
 
->To do:
->Go to the mbed online compiler
+>To do:   
+>Go to the mbed online compiler   
 >'Import' tab -> 'Upload' tab -> Choose file (**microbit-samples.zip**)
 
 microbit-samples.zip originately comes from https://os.mbed.com/teams/BBC/code/microbit-samples/ , more samples have been added this.
