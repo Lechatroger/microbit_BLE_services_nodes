@@ -1,4 +1,4 @@
-# Node-RED functions for microbit IN PROGRESS!
+# DRAFT IN PROGRESS! Node-RED functions for microbit
 
 One Paragraph of project description goes here
 
