@@ -32,7 +32,7 @@ For basic usage of the microbit, the microbit-BLE project is appropriated. It on
 The microbit-BLE project is set up such as no pairing is required: anyone can connect via Bluetooth.
 
 The figure on the right shows the microbit-BLE project from the microbit online compiler.
-![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/MicrobitBLE.png)
+![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/MicrobitBLE.png)
 
 You can also create a new program, if so, make sure that the pairing settings in the project settings are right what you want.
 
@@ -52,7 +52,7 @@ microbit-samples.zip originately comes from https://os.mbed.com/teams/BBC/code/m
 >- Compile
 >- Upload the generated hex file on the microbit flash drive
 
-![Mbed_select](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/Mbed_select.png)
+![Mbed_select](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/Mbed_select.png)
 
 Other samples are available at https://github.com/lancaster-university/microbit-samples
 
