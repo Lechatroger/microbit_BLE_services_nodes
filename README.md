@@ -23,14 +23,15 @@ A step by step series of examples that tell you how to get a development env run
 
 ### 1.2.1.Microbit with Microbit online Javascript compiler
 
-For basic usage of the microbit, the microbit-BLE is appropriated. It only activates all bluetooth services. The services needed are then chosen through the Node-RED functions (see section 1.2.3).
+For basic usage of the microbit, the microbit-BLE project is appropriated. It only activates all bluetooth services. The services needed are then chosen through the Node-RED functions (see section 1.2.3).
 
-![microbit-BLE project from micobit compiler](link-to-image)
+![microbit-BLE project from micobit compiler](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/MicrobitBLE.png)
 
->To do:  Upload the microbit-BLE.hex on the microbit or make a new program on the microbit online compiler
+>To do:  Upload the microbit-BLE.hex on the microbit
 
 The microbit-BLE project is set up such as no pairing is required: anyone can connect via Bluetooth.
-If you create a new program, make sure that the pairing settings in the project settings are right what you want.
+
+You can also create a new program, if so, make sure that the pairing settings in the project settings are right what you want.
 
 ### 1.2.2.Microbit with Mbed online compiler
 
