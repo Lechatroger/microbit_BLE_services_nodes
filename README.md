@@ -13,15 +13,16 @@ What things you need to install the software and how to install them
 ### 1.1.1.On the Raspberry Pi
 
 Install https://github.com/sandeepmistry/node-bbc-microbit
+
 Place 'Microbit_2.0' folder in your Node-RED functions folder: /home/pi/.node-red/lib/functions
 
 
 
 ## 1.2.Development
 
-A step by step series of examples that tell you how to get a development env running
+There are two ways to program your microbit: with the microbit online compiler or with the Mbed C++ online compiler.
 
-### 1.2.1.Microbit with Microbit online JavaScript compiler
+### 1.2.1.Microbit JavaScript online compiler
 
 For basic usage of the microbit, the microbit-BLE project is appropriated. It only activates all bluetooth services. The services needed are then chosen through the Node-RED functions (see section 1.2.3).
 
@@ -35,7 +36,7 @@ The figure on the right shows the microbit-BLE project from the microbit online 
 
 You can also create a new program, if so, make sure that the pairing settings in the project settings are right what you want.
 
-### 1.2.2.Microbit with Mbed online compiler
+### 1.2.2.Mbed C++ online compiler
 
 The other way to program your microbit is to use Mbed.
 
@@ -45,7 +46,8 @@ The other way to program your microbit is to use Mbed.
 
 microbit-samples.zip originately comes from https://os.mbed.com/teams/BBC/code/microbit-samples/ , more samples have been added to this.
 
-To make a sample run on your microbit, decomment the #define  MICROBIT_SAMPLE_NAME_OF_YOUR_SAMPLE line in source/MicroBitSamples.h. Other samples are available at https://github.com/lancaster-university/microbit-samples
+>To do to make a sample run on your microbit:
+>- decomment the #define  MICROBIT_SAMPLE_NAME_OF_YOUR_SAMPLE line in source/MicroBitSamples.h. Other samples are available at https://github.com/lancaster-university/microbit-samples
 
 ### 1.2.3.Raspberry PI
 
