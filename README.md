@@ -2,38 +2,42 @@
 
 One Paragraph of project description goes here
 
-## Getting Started
+# 1.Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
+## 1.1.Prerequisites
 
 What things you need to install the software and how to install them
 
-#### On the Raspberry Pi
+### 1.1.1.On the Raspberry Pi
 
 Install https://github.com/sandeepmistry/node-bbc-microbit
 Place 'Microbit_2.0' folder in your Node-RED functions folder: /home/pi/.node-red/lib/functions
 
 
 
-### Development
+## 1.2.Development
 
 A step by step series of examples that tell you how to get a development env running
 
-#### Microbit with Microbit online Javascript compiler
+### 1.2.1.Microbit with Microbit online Javascript compiler
 
-#### Microbit with Mbed online compiler
+For basic usage of the microbit, the 'microbit-BLE.hex' is appropriated. It only activates all bluetooth services. The services needed are then chosen on Node-RED (see section 1.2.3).
 
-#### Raspberry PI
+1)  Drop microbit-BLE.hex on microbit
+
+### 1.2.2.Microbit with Mbed online compiler
+
+### 1.2.3.Raspberry PI
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+# 2.Running the tests
 
 Explain how to run the automated tests for this system
 
-### Break down into end to end tests
+## 2.1.Break down into end to end tests
 
 Explain what these tests test and why
 
@@ -41,7 +45,7 @@ Explain what these tests test and why
 Give an example
 ```
 
-### And coding style tests
+## 2.2.And coding style tests
 
 Explain what these tests test and why
 
@@ -49,53 +53,35 @@ Explain what these tests test and why
 Give an example
 ```
 
-## Deployment
+# 3.Deployment
 
 Add additional notes about how to deploy this on a live system
 
-## Built With
+# 4.Built With
 
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
-## Contributing
+# 5.Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
+# 6.Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
-## Authors
+# 7.Authors
 
 * **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
-## License
+# 8.Acknowledgments
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
-
-
-
-# Raspberry Node-RED
-
-
-
-
-# microbit_node-red_functions
-Raspberry API:  
 Microbit API:   https://github.com/lancaster-university/microbit
 Microbit examples: https://github.com/lancaster-university/microbit-samples
 Mbed micrbobit examples: https://os.mbed.com/teams/BBC/code/microbit-samples/
-1)  Drop microbit-BLE.hex on microbit
+
 
 
