@@ -25,11 +25,12 @@ A step by step series of examples that tell you how to get a development env run
 
 For basic usage of the microbit, the microbit-BLE project is appropriated. It only activates all bluetooth services. The services needed are then chosen through the Node-RED functions (see section 1.2.3).
 
-![microbit-BLE project from micobit compiler](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/MicrobitBLE.png)
-
 >To do:  Upload the microbit-BLE.hex on the microbit
 
 The microbit-BLE project is set up such as no pairing is required: anyone can connect via Bluetooth.
+
+The Figure below shows the microbit-BLE project from the microbit online compiler.
+![microbit-BLE project from micobit compiler](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/MicrobitBLE.png)
 
 You can also create a new program, if so, make sure that the pairing settings in the project settings are right what you want.
 
