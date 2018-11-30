@@ -21,20 +21,29 @@ Place 'Microbit_2.0' folder in your Node-RED functions folder: /home/pi/.node-re
 
 A step by step series of examples that tell you how to get a development env running
 
-### 1.2.1.Microbit with Microbit online Javascript compiler
+### 1.2.1.Microbit with Microbit online JavaScript compiler
 
 For basic usage of the microbit, the microbit-BLE project is appropriated. It only activates all bluetooth services. The services needed are then chosen through the Node-RED functions (see section 1.2.3).
 
->To do:  Upload the microbit-BLE.hex on the microbit
+>To do:  
+>Upload the microbit-BLE.hex on the microbit flash drive
 
 The microbit-BLE project is set up such as no pairing is required: anyone can connect via Bluetooth.
 
-The Figure below shows the microbit-BLE project from the microbit online compiler.
-![microbit-BLE project from micobit compiler](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/MicrobitBLE.png)
+The figure on the right shows the microbit-BLE project from the microbit online compiler.
+![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/MicrobitBLE.png)
 
 You can also create a new program, if so, make sure that the pairing settings in the project settings are right what you want.
 
 ### 1.2.2.Microbit with Mbed online compiler
+
+The other way to program your microbit is to use Mbed.
+
+>To do: 
+>Go to the mbed online compiler
+>'Import' tab -> 'Upload' tab -> Choose file (**microbit-samples.zip**)
+
+microbit-samples.zip originately comes from https://os.mbed.com/teams/BBC/code/microbit-samples/ , more samples have been added this.
 
 ### 1.2.3.Raspberry PI
 
