@@ -40,6 +40,7 @@ For basic usage of the microbit, the microbit-BLE project is appropriated. It on
 The microbit-BLE project is set up such as no pairing is required: anyone can connect via Bluetooth.
 
 The figure on the right shows the microbit-BLE project from the microbit online compiler.
+
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/MicrobitBLE.png)
 
 You can also create a new program, if so, make sure that the pairing settings in the project settings are right what you want.
