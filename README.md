@@ -82,6 +82,7 @@ Once you've run this flow, you can copy the IDs and addresses of your Microbits 
 >To do:  
 >- The same way you did for FindIDs, upload the ParamMicrobit functions  
 
+```
 msg.payload = {};
 msg.payload.microbitID = "e5fd0123ed24"; 
 msg.payload.accelerometer = true;
@@ -97,6 +98,7 @@ msg.payload.period = 160; //Support values are: 1, 2, 5, 10, 20, 80, 160, or 640
 
 return msg;
 ```
+
 ### 3.3.3. Microbit
 
 >To do:  
