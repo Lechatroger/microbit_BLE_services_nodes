@@ -61,7 +61,7 @@ Other samples are available at https://github.com/lancaster-university/microbit-
 Once you have all prerequisites done for the Raspberry, you should be able to load the Node-RED functions.
 
 >To do:
->Add a 'function' node to your flow in Node-RED and open the function
+>Add a 'function' node to your flow in Node-RED and open the function  
 >'Open library' -> Upload 'FindIDs'
 >You can rename the function as FindIDs
 
