@@ -8,13 +8,20 @@ These instructions will get you a copy of the project up and running on your loc
 
 # 2. Prerequisites
 
-What things you need to install the software and how to install them
-
 ## 2.1. On the Raspberry Pi
 
-Install https://github.com/sandeepmistry/node-bbc-microbit
+1. Follow Noble prerequisites -> https://github.com/noble/noble
 
-Place 'Microbit_2.0' folder in your Node-RED functions folder: /home/pi/.node-red/lib/functions
+2. Install microbit API of sandeepmistry (https://github.com/sandeepmistry/node-bbc-microbit)
+```
+npm install bbc-microbit
+```
+This creates a 'bbc-microbit" folder in /home/pi/.node-red/node_modules .
+
+3. In /home/pi/.node-red/settings.js , add line as on figure below.
+![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/Settings.png)
+
+4. Place 'Microbit_2.0' folder in your Node-RED functions folder: /home/pi/.node-red/lib/functions .
 
 
 
