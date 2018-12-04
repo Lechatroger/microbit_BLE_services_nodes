@@ -78,12 +78,16 @@ Once you've run this flow, you can copy the IDs and addresses of your Microbits 
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/ParamMicrobit.png)
 
 >To do:  
->- The same way you did for FindIDs, upload the ParamMicrobit functions  
+>- The same way you did for FindIDs, upload the ParamMicrobit function  
 
-This function creates an empty JavaScript object (JSON) on [line 1]. Then it fills this object with attributes such as microbitID, accelerometer, buttons... 
-Then it returns the object on the output of the function. [line 
+This function creates an empty JavaScript object (JSON) on [line 1]. Then it fills this object with attributes such as microbitID, accelerometer, buttons...[line 2 - 12] For the microbitID attribute, paste the ID you've previously identified. The other attributes are the bluetooth services you might want to use. Enable = True or Disable = False.
+Then it returns the object on the output of the function. [line 14]
 
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/ParamMicrobit_code.png)
+
+>To do:  
+>- Paste the ID of your Microbit into ParamMicrobit function
+>- Enable or Disable the bluetooth services
 
 ### 3.3.3. Microbit
 
