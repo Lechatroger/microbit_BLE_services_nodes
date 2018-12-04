@@ -18,7 +18,8 @@ npm install bbc-microbit
 ```
 This creates a 'bbc-microbit" folder in /home/pi/.node-red/node_modules .
 
-3. In /home/pi/.node-red/settings.js , add line as on figure below.
+3. In /home/pi/.node-red/settings.js , add line 210 as on figure below.
+
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/settings.png)
 
 4. Place 'Microbit_2.0' folder in your Node-RED functions folder: /home/pi/.node-red/lib/functions .
