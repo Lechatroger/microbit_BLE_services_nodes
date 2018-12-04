@@ -58,9 +58,18 @@ Other samples are available at https://github.com/lancaster-university/microbit-
 
 ### 1.2.3.Raspberry PI
 
-![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/FindIDs.png)
+Once you have all prerequisites done for the Raspberry, you should be able to load the Node-RED functions.
+
+>To do:
+>Add a 'function' node to your flow in Node-RED and open the function
+>'Open library' -> Upload 'FindIDs'
+>You can rename the function as FindIDs
+
+FindIDs is a function that discovers all Microbits. It returns in the Node-RED terminal the IDs and the addresses of each of them. It also returns the addresses and IDs in the payload of its output. The figure below shows how the FindIDs function can be used.
 
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/FindIDs2.png)
+
+Once you've run this flow, you can copy the IDs and addresses of your Microbits in a notebook.
 
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/ParamMicrobit.png)
 
