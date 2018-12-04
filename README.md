@@ -88,6 +88,7 @@ Once you've run this flow, you can copy the IDs and addresses of your Microbits 
 >- The same way you did for FindIDs and ParamMicrobit, upload the Microbit functions 
 
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/Microbit.png)
+![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/MicrobitOutputs.png)
 
 ### 3.3.4. Auto Reconnect setup
 
@@ -95,7 +96,7 @@ Once you've run this flow, you can copy the IDs and addresses of your Microbits 
 
 ### 3.3.5. Multiple Microbit setup
 
-
+![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/MultipleMicrobit.png)
 
 # 4. Running the tests
 
