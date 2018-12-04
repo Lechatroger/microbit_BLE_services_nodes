@@ -62,8 +62,6 @@ Once you have all prerequisites done for the Raspberry, you should be able to lo
 
 ### 3.3.1. FindIDs
 
-![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/FindIDs2.png)
-
 >To do:  
 >- Add a 'function' node to your flow in Node-RED and open the function  
 >- 'Open library' -> Upload 'FindIDs'  
