@@ -89,7 +89,7 @@ Once you've run this flow, you can copy the IDs and addresses of your Microbits 
 
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/Microbit.png)
 
-### 3.3.4. AutoReconnect setup
+### 3.3.4. Auto Reconnect setup
 
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/AutoReconnect.png)
 
