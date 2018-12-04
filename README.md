@@ -78,7 +78,7 @@ Once you've run this flow, you can copy the IDs and addresses of your Microbits 
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/ParamMicrobit.png)
 
 >To do:  
->- The same way you did for FindIDs, upload the ParamMicrobit function  
+>- The same way you did for FindIDs, upload the ParamMicrobit function. 
 
 This function creates an empty JavaScript object (JSON) on [line 1]. Then it fills this object with attributes such as microbitID, accelerometer, buttons...[line 2 - 12] For the microbitID attribute, paste the ID you've previously identified. The other attributes are the bluetooth services you might want to use. Enable = True or Disable = False.
 Then it returns the object on the output of the function. [line 14]
@@ -86,22 +86,33 @@ Then it returns the object on the output of the function. [line 14]
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/ParamMicrobit_code.png)
 
 >To do:  
->- Paste the ID of your Microbit into ParamMicrobit function
->- Enable or Disable the bluetooth services
+>- Paste the ID of your Microbit into ParamMicrobit function.  
+>- Enable or Disable the bluetooth services.
 
 ### 3.3.3. Microbit
 
 >To do:  
->- The same way you did for FindIDs and ParamMicrobit, upload the Microbit functions 
+>- The same way you did for FindIDs and ParamMicrobit, upload the Microbit functions.  
 
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/Microbit.png)
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/MicrobitOutputs.png)
 
+On the input of the Microbit function comes the output of the ParamMicrobit function. The outputs of the Microbit function are listed above in the right order. The outputs are the values of the bluetooth services. There is also an OnConnected event and an OnDisconnect event, the output of these events are not important. These should be used as triggers.
+
 ### 3.3.4. Auto Reconnect setup
+
+What if your microbit and Raspberry are communicating fine and you unplug the microbit? You might want that the Raspberry connects automatically to the microbit when is powered back. In this case the OnDisconnect event is usefull. 
+
+>To do:  
+>- Wire the OnDisconnect output to the intput of ParamMicrobit function as on figure below.
+
+When the microbit is disconnected it will trigger back the ParamMicrobit function and then the Microbit function, which will attempt to connect to the same microbit. The Microbit function will try to connect to the microbit until it is connected.
 
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/AutoReconnect.png)
 
 ### 3.3.5. Multiple Microbit setup
+
+What if you want to uses more than one microbit on one Rasberry? Very easy, the only requirement is to have a delay between each microbit as shown on figure below. This delay prevents the Raspberry to attempt to connect to multiple microbits at the same time.  
 
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/MultipleMicrobit.png)
 
