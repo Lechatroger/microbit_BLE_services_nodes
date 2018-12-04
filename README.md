@@ -10,9 +10,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## 2.1. On the Raspberry Pi
 
-1. Follow Noble prerequisites -> https://github.com/noble/noble
+1. Follow [Noble prerequisites](https://github.com/noble/noble)
 
-2. Install microbit API of sandeepmistry (https://github.com/sandeepmistry/node-bbc-microbit)
+2. Install microbit API made by [sandeepmistry](https://github.com/sandeepmistry/node-bbc-microbit)
 ```
 npm install bbc-microbit
 ```
@@ -53,7 +53,7 @@ The other way to program your microbit is to use Mbed.
 >- Open Mbed online compiler   
 >- 'Import' tab -> 'Upload' tab -> Choose file (**microbit-samples.zip**)
 
-microbit-samples.zip originately comes from https://os.mbed.com/teams/BBC/code/microbit-samples/ , more samples have been added to this. Now its time to choose your sample and to upload it on the microbit!
+microbit-samples.zip originately comes from [mbed/microbit-samples](https://os.mbed.com/teams/BBC/code/microbit-samples/) , more samples have been added to this. Now its time to choose your sample and to upload it on the microbit!
 
 >To do:
 >- Decomment the '#define  MICROBIT_SAMPLE_NAME_OF_YOUR_SAMPLE' line in 'source/MicroBitSamples.h'.(see figure below)
@@ -63,7 +63,7 @@ microbit-samples.zip originately comes from https://os.mbed.com/teams/BBC/code/m
 
 ![Mbed_select](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/Mbed_select.png)
 
-Other samples are available at https://github.com/lancaster-university/microbit-samples
+Other samples are available [here](https://github.com/lancaster-university/microbit-samples)
 
 ## 3.3. Raspberry PI
 
@@ -147,13 +147,12 @@ Give an example
 
 # 9. Authors
 
-* **Sébastien Debenest**
-**Jun Watanabi**
+* **Sébastien Debenest**  
+* **Jun Watanabi**
 
 # 10. Acknowledgments
 
-Thanks to sandeepmistry and Lancaster University for their  //tsua
-Microbit API:   https://github.com/lancaster-university/microbit
+Thanks to [sandeepmistry](https://github.com/sandeepmistry) and [Lancaster University](https://github.com/lancaster-university). Everything made here is based on their work.
 
 
 
