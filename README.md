@@ -61,9 +61,9 @@ Other samples are available at https://github.com/lancaster-university/microbit-
 Once you have all prerequisites done for the Raspberry, you should be able to load the Node-RED functions.
 
 >To do:  
->-Add a 'function' node to your flow in Node-RED and open the function  
->-'Open library' -> Upload 'FindIDs'  
->-You can rename the function as FindIDs
+>- Add a 'function' node to your flow in Node-RED and open the function  
+>- 'Open library' -> Upload 'FindIDs'  
+>- You can rename the function as FindIDs
 
 FindIDs is a function that discovers all Microbits. It returns in the Node-RED terminal the IDs and the addresses of each of them. It also returns the addresses and IDs in the payload of its output. The figure below shows how the FindIDs function can be used.
 
