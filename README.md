@@ -80,6 +80,9 @@ Once you've run this flow, you can copy the IDs and addresses of your Microbits 
 >To do:  
 >- The same way you did for FindIDs, upload the ParamMicrobit functions  
 
+This function creates an empty JavaScript object (JSON) on [line 1]. Then it fills this object with attributes such as microbitID, accelerometer, buttons... 
+Then it returns the object on the output of the function. [line 
+
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/ParamMicrobit_code.png)
 
 ### 3.3.3. Microbit
