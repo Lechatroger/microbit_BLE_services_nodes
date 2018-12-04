@@ -58,7 +58,17 @@ Other samples are available at https://github.com/lancaster-university/microbit-
 
 ### 1.2.3.Raspberry PI
 
-End with an example of getting some data out of the system or using it for a little demo
+https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/FindIDs.png
+
+https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/FindIDs2.png
+
+https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/ParamMicrobit.png
+
+https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/Microbit.png
+
+https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/AutoReconnect.png
+
+
 
 # 2.Running the tests
 
