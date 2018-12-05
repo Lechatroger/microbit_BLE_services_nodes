@@ -16,7 +16,7 @@ These instructions will get you a copy of the project up and running on your loc
 ```
 npm install bbc-microbit
 ```
-This creates a 'bbc-microbit" folder in /home/pi/.node-red/node_modules .
+This creates a 'bbc-microbit' folder in /home/pi/.node-red/node_modules .
 
 3. In /home/pi/.node-red/settings.js , add line 210 as on figure below.
 
