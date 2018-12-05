@@ -53,7 +53,7 @@ The other way to program your microbit is to use Mbed.
 >- Open Mbed online compiler   
 >- 'Import' tab -> 'Upload' tab -> Choose file (**microbit-samples.zip**)
 
-microbit-samples.zip originately comes from [mbed/microbit-samples](https://os.mbed.com/teams/BBC/code/microbit-samples/) , more samples have been added to this. Now its time to choose your sample and to upload it on the microbit!
+microbit-samples.zip originately comes from [mbed/microbit-samples](https://os.mbed.com/teams/BBC/code/microbit-samples/) , more samples have been added to this. Now it's time to choose your sample and to upload it on the microbit!
 
 >To do:
 >- Decomment the '#define  MICROBIT_SAMPLE_NAME_OF_YOUR_SAMPLE' line in 'source/MicroBitSamples.h'.(see figure below)
