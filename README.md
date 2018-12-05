@@ -69,14 +69,14 @@ Other samples are available [here](https://github.com/lancaster-university/micro
 
 Once you have all prerequisites done for the Raspberry, you should be able to load the Node-RED functions.
 
-### 3.3.1. FindIDs
+### 3.3.1. Find IDs
 
 >To do:  
 >- Add a 'function' node to your flow in Node-RED and open the function  
->- 'Open library' -> Upload 'FindIDs'  
->- You can rename the function as FindIDs
+>- 'Open library' -> Upload 'Find_IDs'  
+>- You can rename the function as Find IDs
 
-FindIDs is a function that discovers all Microbits. It returns in the Node-RED terminal the IDs and the addresses of each of them. It also returns the addresses and IDs in the payload of its output. The figure below shows how the FindIDs function can be used.
+Find_IDs is a function that discovers all Microbits. It returns in the Node-RED terminal the IDs and the addresses of each of them. It also returns the addresses and IDs in the payload of its output. The figure below shows how the Find_IDs function can be used.
 
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/FindIDs2.png)
 
@@ -87,7 +87,7 @@ Once you've run this flow, you can copy the IDs and addresses of your Microbits 
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/ParamMicrobit.png)
 
 >To do:  
->- The same way you did for FindIDs, upload the ParamMicrobit function. 
+>- The same way you did for Find_IDs, upload the ParamMicrobit function. 
 
 This function creates an empty JavaScript object (JSON) on [line 1]. Then it fills this object with attributes such as microbitID, accelerometer, buttons...[line 2 - 12] For the microbitID attribute, paste the ID you've previously identified. The other attributes are the bluetooth services you might want to use. Enable = True or Disable = False.
 Then it returns the object on the output of the function. [line 14]
@@ -101,7 +101,7 @@ Then it returns the object on the output of the function. [line 14]
 ### 3.3.3. Microbit
 
 >To do:  
->- The same way you did for FindIDs and ParamMicrobit, upload the Microbit functions.  
+>- The same way you did for Find_IDs and ParamMicrobit, upload the Microbit functions.  
 
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/Microbit.png)
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/MicrobitOutputs.png)
