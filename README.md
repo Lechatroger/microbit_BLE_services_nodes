@@ -1,4 +1,4 @@
-# DRAFT IN PROGRESS! Node-RED functions for microbit Bluetooth Low Energy services
+# Node-RED nodes for microbit Bluetooth Low Energy services
 
 One Paragraph of project description goes here
 
@@ -22,24 +22,24 @@ This creates a 'bbc-microbit' folder in /home/pi/.node-red/node_modules .
 
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/settings.png)
 
-4. Place 'Microbit_2.0' folder in your Node-RED functions folder: /home/pi/.node-red/lib/functions .
+4. Place 'Microbit_nodes' folder in your Node-RED functions folder: /home/pi/.node-red/lib/functions .
 
 
 
 # 3. Development
 
-There are two ways to program your microbit: with the microbit online compiler or with the Mbed C++ online compiler.
+There are two ways to program your microbit: with the microbit JavaScript online compiler or with the Mbed C++ online compiler.
 
 ## 3.1. Microbit JavaScript online compiler
 
-For basic usage of the microbit, the microbit-BLE project is appropriated. It only starts all bluetooth services. The services needed are then chosen through the Node-RED functions (see section 1.2.3).
+For basic usage of the microbit, the microbit_BLE project is appropriated. It only starts all bluetooth services. The services needed are then chosen through the Node-RED functions (see section 3.3.2).
 
 >To do:   
->- Upload 'microbit-BLE.hex' on the microbit flash drive
+>- Upload 'microbit_BLE.hex' on the microbit's flash drive
 
-The microbit-BLE project is set up such as no pairing is required: anyone can connect via Bluetooth.
+The microbit_BLE project is set up such as no pairing is required: anyone can connect via Bluetooth.
 
-The figure on the right shows the microbit-BLE project from the microbit online compiler.
+The figure on the right shows the microbit_BLE project from the microbit online compiler.
 
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/MicrobitBLE.png)
 
