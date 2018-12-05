@@ -1,4 +1,4 @@
-// name: ParamMicrobit
+// name: Param_Microbit
 // outputs: 1
 msg.payload = {};
 msg.payload.microbitID = "e5fd0123ed24"; 
