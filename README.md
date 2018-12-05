@@ -1,4 +1,4 @@
-# DRAFT IN PROGRESS! Node-RED functions for microbit
+# DRAFT IN PROGRESS! Node-RED functions for microbit Bluetooth Low Energy services
 
 One Paragraph of project description goes here
 
