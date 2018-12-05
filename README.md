@@ -10,19 +10,20 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## 2.1. On the Raspberry Pi
 
-1. Follow [Noble prerequisites](https://github.com/noble/noble)
+>To do: 
+>- Follow [Noble prerequisites](https://github.com/noble/noble)
 
-2. Install microbit API made by [sandeepmistry](https://github.com/sandeepmistry/node-bbc-microbit)
+>- Install microbit API made by [sandeepmistry](https://github.com/sandeepmistry/node-bbc-microbit)
 ```
 npm install bbc-microbit
 ```
-This creates a 'bbc-microbit' folder in /home/pi/.node-red/node_modules .
+This creates a **bbc-microbit** folder in **/home/pi/.node-red/node_modules** .
 
-3. In /home/pi/.node-red/settings.js , add line 210 as on figure below.
+>- In **/home/pi/.node-red/settings.js** , add line 210 as on figure below.
 
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/settings.png)
 
-4. Place 'Microbit_nodes' folder in your Node-RED functions folder: /home/pi/.node-red/lib/functions .
+>- Place **Microbit_nodes** folder in your Node-RED functions folder: **/home/pi/.node-red/lib/functions** .
 
 
 
@@ -32,10 +33,10 @@ There are two ways to program your microbit: with the microbit JavaScript online
 
 ## 3.1. Microbit JavaScript online compiler
 
-For basic usage of the microbit, the microbit_BLE project is appropriated. It only starts all bluetooth services. The services needed are then chosen through the Node-RED functions (see section 3.3.2).
+For basic usage of the microbit, the microbit_BLE project is appropriated. It only starts all bluetooth services. The services needed are then chosen through the Node-RED nodes (see section 3.3.2).
 
 >To do:   
->- Upload 'microbit_BLE.hex' on the microbit's flash drive
+>- Upload **microbit_BLE.hex** on the microbit's flash drive
 
 The microbit_BLE project is set up such as no pairing is required: anyone can connect via Bluetooth.
 
@@ -51,12 +52,16 @@ The other way to program your microbit is to use Mbed.
 
 >To do:   
 >- Open Mbed online compiler   
->- 'Import' tab -> 'Upload' tab -> Choose file (**microbit-samples.zip**)
+>- 'Import' tab -> 'Upload' tab -> Choose file (**microbit_samples.zip**)
 
-microbit-samples.zip originately comes from [mbed/microbit-samples](https://os.mbed.com/teams/BBC/code/microbit-samples/) , more samples have been added to this. Now it's time to choose your sample and to upload it on the microbit!
+**microbit_samples.zip** originately comes from [mbed/microbit-samples](https://os.mbed.com/teams/BBC/code/microbit-samples/) , more samples have been added to this. Now it's time to choose your sample and to upload it on the microbit!
 
 >To do:
->- Decomment the '#define  MICROBIT_SAMPLE_NAME_OF_YOUR_SAMPLE' line in 'source/MicroBitSamples.h'.(see figure below)
+>- Decomment 
+```
+#define  MICROBIT_SAMPLE_NAME_OF_YOUR_SAMPLE
+```
+> in **source/MicroBitSamples.h**.(see figure below)
 >- Select the BBC micro:bit board (on Mbed compiler)
 >- Compile
 >- Upload the generated hex file on the microbit flash drive
@@ -67,16 +72,16 @@ Other samples are available [here](https://github.com/lancaster-university/micro
 
 ## 3.3. Raspberry PI
 
-Once you have all prerequisites done for the Raspberry, you should be able to load the Node-RED functions.
+Once you have all prerequisites done for the Raspberry, you should be able to load the Node-RED nodes.
 
 ### 3.3.1. Find IDs
 
 >To do:  
 >- Add a 'function' node to your flow in Node-RED and open the function  
->- 'Open library' -> Upload 'Find_IDs'  
+>- 'Open library...' -> Microbit_nodes -> Upload **Find_IDs**  
 >- You can rename the function as Find IDs
 
-Find_IDs is a function that discovers all Microbits. It returns in the Node-RED terminal the IDs and the addresses of each of them. It also returns the addresses and IDs in the payload of its output. The figure below shows how the Find_IDs function can be used.
+Find_IDs is a node that discovers all Microbits. It returns in the Node-RED terminal the IDs and the addresses of each of them. It also returns the addresses and IDs in the payload of its output. The figure below shows how the Find_IDs node is used.
 
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/FindIDs2.png)
 
@@ -87,35 +92,35 @@ Once you've run this flow, you can copy the IDs and addresses of your Microbits 
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/ParamMicrobit.png)
 
 >To do:  
->- The same way you did for Find_IDs, upload the ParamMicrobit function. 
+>- The same way you did for Find_IDs, upload the ParamMicrobit node. 
 
-This function creates an empty JavaScript object (JSON) on [line 1]. Then it fills this object with attributes such as microbitID, accelerometer, buttons...[line 2 - 12] For the microbitID attribute, paste the ID you've previously identified. The other attributes are the bluetooth services you might want to use. Enable = True or Disable = False.
-Then it returns the object on the output of the function. [line 14]
+This node creates an empty JavaScript object (JSON) on [line 1]. Then it fills this object with attributes such as microbitID, accelerometer, buttons...[line 2 - 12] For the microbitID attribute, paste the ID you've previously identified. The other attributes are the bluetooth services you might want to use. Enable = True or Disable = False.
+Then it returns the object on the output of the node. [line 14]
 
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/ParamMicrobit_code.png)
 
 >To do:  
->- Paste the ID of your Microbit into ParamMicrobit function.  
+>- Paste the ID of your Microbit into ParamMicrobit node.  
 >- Enable or Disable the bluetooth services.
 
 ### 3.3.3. Microbit
 
 >To do:  
->- The same way you did for Find_IDs and ParamMicrobit, upload the Microbit functions.  
+>- The same way you did for Find_IDs and ParamMicrobit, upload the Microbit node.  
 
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/Microbit.png)
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/MicrobitOutputs.png)
 
-On the input of the Microbit function comes the output of the ParamMicrobit function. The outputs of the Microbit function are listed above in the right order. The outputs are the values of the bluetooth services. There is also an OnConnected event and an OnDisconnect event, the output of these events are not important. These should be used as triggers.
+On the input of the Microbit node comes the output of the ParamMicrobit node. The outputs of the Microbit node are listed above in the right order. The outputs are the values of the bluetooth services. There is also an OnConnected event and an OnDisconnect event, the output of these events are not important. These should be used as triggers.
 
 ### 3.3.4. Auto Reconnect setup
 
 What if your microbit and Raspberry are communicating fine and you unplug the microbit? You might want that the Raspberry connects automatically to the microbit when is powered back. In this case the OnDisconnect event is usefull. 
 
 >To do:  
->- Wire the OnDisconnect output to the intput of ParamMicrobit function as on figure below.
+>- Wire the OnDisconnect output to the intput of ParamMicrobit node as on figure below.
 
-When the microbit is disconnected it will trigger back the ParamMicrobit function and then the Microbit function, which will attempt to connect to the same microbit. The Microbit function will try to connect to the microbit until it is connected.
+When the microbit is disconnected it will trigger back the ParamMicrobit node and then the Microbit node, which will attempt to connect to the same microbit. The Microbit node will try to connect to the microbit until it is connected.
 
 ![microbit-BLE](https://github.com/Lechatroger/microbit_node-red_functions/blob/master/figure/AutoReconnect.png)
 
