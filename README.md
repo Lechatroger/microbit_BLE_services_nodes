@@ -53,7 +53,7 @@ The other way to program your microbit is to use Mbed.
 
 **Unfortunatly we are unable to use BLE services when the microbit program is compiled on Mbed. The code of the BLEservices sample we made is probably not right. The BLEservices sample comes from [here](https://github.com/lancaster-university/microbit-samples) and some minor changes concerning the configuration have been done. Favor the Microbit JavaScript online compiler solution.**
 
-What you may want to do if you still want to try compiling on Mbed.
+What you may need to do if you still want to try compiling on Mbed.
 
 >To do:   
 >- Open Mbed online compiler   
