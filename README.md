@@ -120,7 +120,7 @@ What if your microbit and Raspberry are communicating fine and you unplug the mi
 >To do:  
 >- Wire the OnDisconnect output to the intput of ParamMicrobit node as on figure below.
 
-When the microbit is disconnected it will trigger back the ParamMicrobit node and then the Microbit node, which will attempt to connect to the same microbit. The Microbit node will try to connect to the microbit until it is connected.
+When the microbit is disconnected it will trigger back the ParamMicrobit node and then the Microbit node, which will attempt to connect to the same microbit. The Microbit node will try to connect to the microbit until it is powered back and connected.
 
 ![microbit-BLE](https://github.com/Lechatroger/nodes_microbit_BLE_services/blob/master/figure/AutoReconnect.png)
 
