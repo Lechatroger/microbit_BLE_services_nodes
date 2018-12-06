@@ -1,11 +1,11 @@
 # Node-RED nodes for microbit Bluetooth Low Energy services
 
-This project shows how to develop an application that uses Bluetooth Low Energy services of the bbc microbit in pair with Node-RED on Raspberry PI. It explains how to setup the microbit to start the BLE services, and how to build a Node-RED flow with our nodes related to the BLE services. This project is based on [sandeepmistry](https://github.com/sandeepmistry) and [Lancaster University](https://github.com/lancaster-university) its work.
+  This project shows how to develop an application that uses Bluetooth Low Energy services of the bbc microbit in pair with Node-RED on Raspberry PI. It explains how to setup the microbit to start the BLE services, and how to build a Node-RED flow with our nodes related to the BLE services. This project is based on [sandeepmistry](https://github.com/sandeepmistry) and [Lancaster University](https://github.com/lancaster-university) its work.
 
 
 # 1. Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+  These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 # 2. Prerequisites
 
@@ -51,9 +51,9 @@ You can also create a new program, if so, make sure that the pairing settings in
 
 The other way to program your microbit is to use Mbed.
 
-```css
+<p style='color:red'>This is some red text.</p>
 Unfortunatly we are unable to use BLE services when the microbit program is compiled on Mbed. The code of the BLEservices sample we made is probably not right. The BLEservices sample comes from [here](https://github.com/lancaster-university/microbit-samples) and some minor changes concerning the configuration have been done. Favor the Microbit JavaScript online compiler solution.
-```
+
 What you may want to do if you still want to try compiling on Mbed.
 
 >To do:   
