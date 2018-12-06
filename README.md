@@ -49,9 +49,10 @@ You can also create a new program, if so, make sure that the pairing settings in
 
 ## 3.2. Mbed C++ online compiler
 
-We are unable to use BLE services when the microbit program is compiled on Mbed. The code of the BLEservices sample used is probably not right. The BLEservices sample comes from [here](https://github.com/lancaster-university/microbit-samples) and some minor changes concerning the configuration has been done.
-
+```json
+We are unable to use BLE services when the microbit program is compiled on Mbed. The code of the BLEservices sample used is probably not right. The BLEservices sample comes from [here](https://github.com/lancaster-university/microbit-samples) and some minor changes concerning the configuration has been done. Favor the Microbit JavaScript online compiler solutio```^^^
 The other way to program your microbit is to use Mbed.
+```
 
 >To do:   
 >- Open Mbed online compiler   
