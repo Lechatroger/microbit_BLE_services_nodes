@@ -1,6 +1,7 @@
 # Node-RED nodes for microbit Bluetooth Low Energy services
 
-One Paragraph of project description goes here
+This project shows how to develop an application that uses Bluetooth Low Energy services of the bbc microbit in pair with Node-RED on Raspberry PI. It explains how to setup the microbit to start the BLE services, and how to build a Node-RED flow with our nodes related to the BLE services. This project is based on [sandeepmistry](https://github.com/sandeepmistry) and [Lancaster University](https://github.com/lancaster-university) its work.
+
 
 # 1. Getting Started
 
@@ -47,6 +48,8 @@ The figure on the right shows the microbit_BLE project from the microbit online 
 You can also create a new program, if so, make sure that the pairing settings in the project settings are right what you want.
 
 ## 3.2. Mbed C++ online compiler
+
+We are unable to use BLE services when the microbit program is compiled on Mbed. The code of the BLEservices sample used is probably not right. The BLEservices sample comes from [here](https://github.com/lancaster-university/microbit-samples) and some minor changes concerning the configuration has been done.
 
 The other way to program your microbit is to use Mbed.
 
@@ -145,13 +148,16 @@ Explain what these tests test and why
 ```
 Give an example
 ```
+# 5. Futur work
 
-# 9. Authors
+* We are unable to use BLE services when the microbit program is compiled on Mbed. The code of the BLEservices sample used is probably not right. The BLEservices sample comes from [here](https://github.com/lancaster-university/microbit-samples) and some minor changes concerning the configuration have been done.
+
+# 6. Authors
 
 * **Sébastien Debenest**  
 * **Jun Watanabi**
 
-# 10. Acknowledgments
+# 7. Acknowledgments
 
 Thanks to [sandeepmistry](https://github.com/sandeepmistry) and [Lancaster University](https://github.com/lancaster-university). Everything made here is based on their work.
 
