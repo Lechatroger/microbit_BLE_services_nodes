@@ -76,14 +76,16 @@ Other samples are available [here](https://github.com/lancaster-university/micro
 
 ## 3.3. Raspberry PI
 
-Once you have all prerequisites done for the Raspberry, you should be able to load the Node-RED nodes.
-
-### 3.3.1. Find IDs
+If you haven't imported our nodes with the clipboard, but did with the function library (cf: 2.1), you should follow these steps. Else, you can read next chapter **3.3.1. Find IDs**.
 
 >To do:  
 >- Add a 'function' node to your flow in Node-RED and open the function  
 >- 'Open library...' -> Microbit_nodes -> Upload **Find_IDs**  
->- You can rename the function as Find IDs
+>
+>- The same way you did for Find_IDs, upload the Param_Microbit node.  
+>- The same way you did for Find_IDs and ParamMicrobit, upload the Microbit node.   
+
+### 3.3.1. Find IDs
 
 Find_IDs is a node that discovers all Microbits. It returns in the Node-RED terminal the IDs and the addresses of each of them. It also returns the addresses and IDs in the payload of its output. The figure below shows how the Find_IDs node is used.
 
@@ -91,12 +93,9 @@ Find_IDs is a node that discovers all Microbits. It returns in the Node-RED term
 
 Once you've run this flow, you can copy the IDs and addresses of your Microbits in a notebook.
 
-### 3.3.2 ParamMicrobit
+### 3.3.2 Param Microbit
 
 ![microbit-BLE](https://github.com/Lechatroger/nodes_microbit_BLE_services/blob/master/figure/ParamMicrobit.png)
-
->To do:  
->- The same way you did for Find_IDs, upload the ParamMicrobit node. 
 
 This node creates an empty JavaScript object (JSON) on [line 1]. Then it fills this object with attributes such as microbitID, accelerometer, buttons...[line 2 - 12] For the microbitID attribute, paste the ID you've previously identified. The other attributes are the bluetooth services you might want to use. Enable = True or Disable = False.
 Then it returns the object on the output of the node. [line 14]
@@ -108,9 +107,6 @@ Then it returns the object on the output of the node. [line 14]
 >- Enable or Disable the bluetooth services.
 
 ### 3.3.3. Microbit
-
->To do:  
->- The same way you did for Find_IDs and ParamMicrobit, upload the Microbit node.  
 
 ![microbit-BLE](https://github.com/Lechatroger/nodes_microbit_BLE_services/blob/master/figure/Microbit.png)
 ![microbit-BLE](https://github.com/Lechatroger/nodes_microbit_BLE_services/blob/master/figure/MicrobitOutputs.png)
