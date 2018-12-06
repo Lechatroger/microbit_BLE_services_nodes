@@ -26,7 +26,7 @@ This creates a **bbc-microbit** folder in **/home/pi/.node-red/node_modules** .
 
 >- Upload our nodes. We have created 3 nodes for Node-RED. To add them into your project you can either go for 1rst or 2nd solution.
 
->- 1rst. Import the **clipboard.txt** text in your Node-RED flow 
+>- 1rst. In Node-RED: Import -> Clipboard -> Paste the **clipboard file** text -> Import
 >- 2nd. Place **Microbit_nodes** folder in your Node-RED functions folder: **/home/pi/.node-red/lib/functions** .
 
 
