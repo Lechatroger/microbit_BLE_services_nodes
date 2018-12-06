@@ -26,8 +26,8 @@ This creates a **bbc-microbit** folder in **/home/pi/.node-red/node_modules** .
 
 >- Upload our nodes. We have created 3 nodes for Node-RED. To add them into your project you can either go for 1rst or 2nd solution.
 
->- 1rst. In Node-RED: Import -> Clipboard -> Paste the **clipboard file** text -> Import
->- 2nd. Place **Microbit_nodes** folder in your Node-RED functions folder: **/home/pi/.node-red/lib/functions** .
+>- 1rst. In Node-RED: Import -> Clipboard -> Paste the [**clipboard file**](https://github.com/Lechatroger/nodes_microbit_BLE_services/blob/master/clipboard) text -> Import
+>- 2nd. Place [**Microbit_nodes**](https://github.com/Lechatroger/nodes_microbit_BLE_services/tree/master/Microbit_nodes) folder in your Node-RED functions folder: **/home/pi/.node-red/lib/functions** .
 
 
 
@@ -40,7 +40,7 @@ There are two ways to program your microbit: with the microbit JavaScript online
 For basic usage of the microbit, the microbit_BLE project is appropriated. It only starts all bluetooth services. The services needed are then chosen through the Node-RED nodes (see section 3.3.2).
 
 >To do:   
->- Upload **microbit_BLE.hex** on the microbit's flash drive
+>- Upload [**microbit_BLE.hex**](https://github.com/Lechatroger/nodes_microbit_BLE_services/blob/master/microbit_BLE.hex) on the microbit's flash drive
 
 The microbit_BLE project is set up such as no pairing is required: anyone can connect via Bluetooth.
 
@@ -60,7 +60,7 @@ What you may need to do if you still want to try compiling on Mbed.
 
 >To do:   
 >- Open Mbed online compiler   
->- 'Import' tab -> 'Upload' tab -> Choose file (**microbit_samples.zip**)
+>- 'Import' tab -> 'Upload' tab -> Choose file [**microbit_samples.zip**](https://github.com/Lechatroger/nodes_microbit_BLE_services/blob/master/microbit_samples.zip) -> Import
 
 **microbit_samples.zip** originately comes from [mbed/microbit-samples](https://os.mbed.com/teams/BBC/code/microbit-samples/) , more samples have been added to this. Now it's time to choose your sample and to upload it on the microbit!
 
