@@ -20,6 +20,11 @@ BBCMicrobit.discoverById(id, function(microbit) {console.log('\tMicrobit discove
             node.send([null, null, null, null, null, null, null, null, null, null, null, null, null, null, msg, null]);
         });
 
+        microbit.on('disconnect', function() {
+            console.log('\tMicrobit disconnected!');
+            node.send([null, ..., null, msg, null]);
+        });
+        
         if (msg.payload.accelerometer === true){
             
             microbit.on('accelerometerChange', function(x, y, z) {console.log('\tAccelerometer = %d %d %d G', x, y, z);
