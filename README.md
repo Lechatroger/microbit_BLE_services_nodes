@@ -115,7 +115,7 @@ On the input of the Microbit node comes the output of the ParamMicrobit node. Th
 
 ### 3.3.4. Auto Reconnect setup
 
-What if your microbit and Raspberry are communicating fine and you unplug the microbit? You might want that the Raspberry connects automatically to the microbit when is powered back. In this case the OnDisconnect event is usefull. 
+What if your microbit and Raspberry are communicating fine and you unplug the microbit? You might want that the Raspberry connects automatically to the microbit when powered back. In this case the OnDisconnect event is usefull. 
 
 >To do:  
 >- Wire the OnDisconnect output to the intput of ParamMicrobit node as on figure below.
