@@ -156,7 +156,7 @@ Give an example
 # 6. Authors
 
 * **Sébastien Debenest**  
-* **Jun Watanabi**
+* **Jun Watanabe**
 
 # 7. Acknowledgments
 
