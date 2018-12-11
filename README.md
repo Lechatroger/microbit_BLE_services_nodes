@@ -137,7 +137,7 @@ What if you want to uses more than one microbit on one Rasberry? Very easy, the 
 
 # 5. Authors
 
-* **Sébastien Debenest**  
+* **Sébastien Debenest (Lechatroger)**  
 * **Jun Watanabe**
 
 # 6. Acknowledgments
