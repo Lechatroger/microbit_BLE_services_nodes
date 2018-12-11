@@ -130,35 +130,17 @@ What if you want to uses more than one microbit on one Rasberry? Very easy, the 
 
 ![microbit-BLE](https://github.com/Lechatroger/nodes_microbit_BLE_services/blob/master/figure/MultipleMicrobit.png)
 
-# 4. Running the tests
 
-Explain how to run the automated tests for this system
-
-## 4.1. Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## 4.2. And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-# 5. Futur work
+# 4. Futur work
 
 * We are unable to use BLE services when the microbit program is compiled on Mbed. The code of the BLEservices sample used is probably not right. The BLEservices sample comes from [here](https://github.com/lancaster-university/microbit-samples) and some minor changes concerning the configuration have been done.
 
-# 6. Authors
+# 5. Authors
 
 * **Sébastien Debenest**  
 * **Jun Watanabe**
 
-# 7. Acknowledgments
+# 6. Acknowledgments
 
 Thanks to [sandeepmistry](https://github.com/sandeepmistry) and [Lancaster University](https://github.com/lancaster-university). Everything made here is based on their work.
 
