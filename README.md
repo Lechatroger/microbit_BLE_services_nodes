@@ -24,9 +24,9 @@ This creates a **bbc-microbit** folder in **/home/pi/.node-red/node_modules** .
 
 ![microbit-BLE](https://github.com/Lechatroger/nodes_microbit_BLE_services/blob/master/figure/settings.png)
 
->- We have created 3 nodes for Node-RED. To add them into your Node-RED project, in Node-RED: Import -> Clipboard -> Paste the [**nodes_microbit**](https://github.com/Lechatroger/nodes_microbit_BLE_services/blob/master/nodes_microbit) file text -> Import
+>- We have created 3 nodes for Node-RED. To add them into your Node-RED project, in Node-RED: Import -> Clipboard -> Paste the [**nodes_microbit**](https://github.com/Lechatroger/nodes_microbit_BLE_services/blob/master/Raspberry/nodes_microbit) file text -> Import
 
-The code of our nodes are available [**here**](https://github.com/Lechatroger/nodes_microbit_BLE_services/tree/master/Microbit_nodes)
+The code of our nodes are available [**here**](https://github.com/Lechatroger/nodes_microbit_BLE_services/tree/master/Raspberry/Microbit_nodes)
 
 # 3. Development
 
@@ -37,7 +37,7 @@ There are two ways to program your microbit: with the microbit JavaScript online
 For basic usage of the microbit, the microbit_BLE project is appropriated. It only starts all bluetooth services. The services needed are then chosen through the Node-RED nodes (see section 3.3.3).
 
 >To do:   
->- Upload [**microbit_BLE.hex**](https://github.com/Lechatroger/nodes_microbit_BLE_services/blob/master/microbit_BLE.hex) on the microbit's flash drive
+>- Upload [**microbit_BLE.hex**](https://github.com/Lechatroger/nodes_microbit_BLE_services/blob/master/microbit/microbit_BLE.hex) on the microbit's flash drive
 
 The microbit_BLE project is set up such as no pairing is required: anyone can connect via Bluetooth.
 
@@ -57,7 +57,7 @@ What you may need to do if you still want to try compiling on Mbed.
 
 >To do:   
 >- Open Mbed online compiler   
->- 'Import' tab -> 'Upload' tab -> Choose file [**microbit_samples.zip**](https://github.com/Lechatroger/nodes_microbit_BLE_services/blob/master/microbit_samples.zip) -> Import
+>- 'Import' tab -> 'Upload' tab -> Choose file [**microbit_samples.zip**](https://github.com/Lechatroger/nodes_microbit_BLE_services/blob/master/microbit/microbit_samples.zip) -> Import
 
 **microbit_samples.zip** originately comes from [mbed/microbit-samples](https://os.mbed.com/teams/BBC/code/microbit-samples/) , more samples have been added to this. Now it's time to choose your sample and to upload it on the microbit!
 
@@ -76,7 +76,7 @@ Other samples are available [here](https://github.com/lancaster-university/micro
 We have created a Node-RED Hello World project. 
 , 
 >- To add it to your flow:
->- In Node-RED: Import -> Clipboard -> Paste the [**Hello_World**](https://github.com/Lechatroger/nodes_microbit_BLE_services/blob/master/Hello_World) file text -> Import
+>- In Node-RED: Import -> Clipboard -> Paste the [**Hello_World**](https://github.com/Lechatroger/nodes_microbit_BLE_services/blob/master/Raspberry/Hello_World) file text -> Import
 
 **It is recommended to read the following documentation of our nodes before trying Hello World**
 
