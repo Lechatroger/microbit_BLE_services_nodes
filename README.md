@@ -24,7 +24,7 @@ This creates a **bbc-microbit** folder in **/home/pi/.node-red/node_modules** .
 
 ![microbit-BLE](https://github.com/Lechatroger/nodes_microbit_BLE_services/blob/master/figure/settings.png)
 
->- We have created 3 nodes for Node-RED. To add them into your Node-RED project, in Node-RED: Import -> Clipboard -> Paste the [**nodes_microbit**](https://github.com/Lechatroger/nodes_microbit_BLE_services/blob/master/nodes_microbit)file text -> Import
+>- We have created 3 nodes for Node-RED. To add them into your Node-RED project, in Node-RED: Import -> Clipboard -> Paste the [**nodes_microbit**](https://github.com/Lechatroger/nodes_microbit_BLE_services/blob/master/nodes_microbit) file text -> Import
 
 The code of our nodes are available [**here**](https://github.com/Lechatroger/nodes_microbit_BLE_services/tree/master/Microbit_nodes)
 
@@ -73,7 +73,10 @@ Other samples are available [here](https://github.com/lancaster-university/micro
 
 ## 3.3. Raspberry PI
   
->- We have created a  Node-RED Hello World project. To add it to your flow, in Node-RED: Import -> Clipboard -> Paste the [**Hello_World**](https://github.com/Lechatroger/nodes_microbit_BLE_services/blob/master/Hello_World)file text -> Import
+We have created a Node-RED Hello World project. 
+, 
+>- To add it to your flow:
+>- In Node-RED: Import -> Clipboard -> Paste the [**Hello_World**](https://github.com/Lechatroger/nodes_microbit_BLE_services/blob/master/Hello_World) file text -> Import
 
 **It is recommended to read the following documentation of our nodes before trying Hello World**
 
