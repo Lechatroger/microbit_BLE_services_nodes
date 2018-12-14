@@ -24,11 +24,7 @@ This creates a **bbc-microbit** folder in **/home/pi/.node-red/node_modules** .
 
 ![microbit-BLE](https://github.com/Lechatroger/nodes_microbit_BLE_services/blob/master/figure/settings.png)
 
->- Upload our nodes. We have created 3 nodes for Node-RED. To add them into your project you can either go for 1rst or 2nd solution.
-
->- 1rst. In Node-RED: Import -> Clipboard -> Paste the [**clipboard file**](https://github.com/Lechatroger/nodes_microbit_BLE_services/blob/master/clipboard) text -> Import
->- 2nd. Place [**Microbit_nodes**](https://github.com/Lechatroger/nodes_microbit_BLE_services/tree/master/Microbit_nodes) folder in your Node-RED functions folder: **/home/pi/.node-red/lib/functions** .
-
+>- We have created 3 nodes for Node-RED. To add them into your Node-RED project, in Node-RED: Import -> Clipboard -> Paste the [**nodes_microbit**](https://github.com/Lechatroger/nodes_microbit_BLE_services/blob/master/nodes_microbit)file text -> Import
 
 
 # 3. Development
@@ -37,7 +33,7 @@ There are two ways to program your microbit: with the microbit JavaScript online
 
 ## 3.1. Microbit JavaScript online compiler
 
-For basic usage of the microbit, the microbit_BLE project is appropriated. It only starts all bluetooth services. The services needed are then chosen through the Node-RED nodes (see section 3.3.2).
+For basic usage of the microbit, the microbit_BLE project is appropriated. It only starts all bluetooth services. The services needed are then chosen through the Node-RED nodes (see section 3.3.3).
 
 >To do:   
 >- Upload [**microbit_BLE.hex**](https://github.com/Lechatroger/nodes_microbit_BLE_services/blob/master/microbit_BLE.hex) on the microbit's flash drive
@@ -75,15 +71,10 @@ What you may need to do if you still want to try compiling on Mbed.
 Other samples are available [here](https://github.com/lancaster-university/microbit-samples)
 
 ## 3.3. Raspberry PI
+  
+>- We have created a  Node-RED Hello World project. To add it to your flow, in Node-RED: Import -> Clipboard -> Paste the [**Hello_World**](https://github.com/Lechatroger/nodes_microbit_BLE_services/blob/master/Hello_World)file text -> Import
 
-If you haven't imported our nodes with the clipboard, but did with the function library (cf: 2.1), you should follow these steps. Else, you can read next chapter **3.3.1. Find IDs**.
-
->To do:  
->- Add a 'function' node to your flow in Node-RED and open the function  
->- 'Open library...' -> Microbit_nodes -> Upload **Find_IDs**  
->
->- The same way you did for Find_IDs, upload the Param_Microbit node.  
->- The same way you did for Find_IDs and ParamMicrobit, upload the Microbit node.   
+**It is recommended to read the following documentation of our nodes before trying Hello World**
 
 ### 3.3.1. Find IDs
 
